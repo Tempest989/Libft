@@ -85,7 +85,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		output[0] = '\0';
 		return (output);
 	}
-	output = (char *)malloc(sizeof(char) * count);
+	output = (char *)malloc(sizeof(char) * (count + 2));
 	if (output == NULL)
 		return (NULL);
 	track = ft_count(s1, set, 1);

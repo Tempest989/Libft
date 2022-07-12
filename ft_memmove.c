@@ -16,6 +16,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	int	track;
 
+	if (n == 0)
+		return (dest);
 	if (dest == 0 || src == 0)
 		return (NULL);
 	if (dest > src)

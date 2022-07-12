@@ -16,6 +16,8 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
 	unsigned int	track;
 
+	if (s == NULL)
+		return ;
 	track = 0;
 	while (s[track] != '\0')
 	{
