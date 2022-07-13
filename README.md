@@ -9,5 +9,5 @@ Read the [subject.pdf](https://github.com/Tempest989/Libft/blob/main/en.subject.
 - `make` and `make libft` will compile the Libft Project, as the library `libft.a`.
 - `make clean` will delete all the compiled `.o` files.
 - `make fclean` will run `make clean` and then delete the library `libft.a`
-- `make re` will run the comands, `make fclean` then `make`, to delete (if possible) `libft.a` and all `.o` files, then compile the library `libft.a`
+- `make re` will run the commands, `make fclean` then `make`, to delete (if possible) `libft.a` and all `.o` files, then compile the library `libft.a`
 ### A helpful [Tester](https://github.com/Abaker-Hype/42-Cursus-Tester) for the Mandatory part, and another helpful [Tester](https://github.com/jtoty/Libftest) for the Bonus part.
